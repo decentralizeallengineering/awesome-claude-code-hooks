@@ -77,6 +77,7 @@ Hooks that optimize model selection and track spending.
 
 - [claude-model-router-hook](https://github.com/tzachbon/claude-model-router-hook) - Auto-switches model tier based on task complexity (e.g., Haiku for simple reads, Opus for complex reasoning). 25 stars. Triggers on: `PreToolUse`.
 - [Cost tracker hook](https://github.com/karanb192/claude-code-hooks) - Tracks token usage and estimated cost per session. Part of a 10-hook collection. Triggers on: `PostToolUse`.
+- [pacekeeper](https://github.com/decentralizeallengineering/pacekeeper) - Denies Opus and Sonnet subagents and Workflow runs while weekly Claude Code usage is ahead of a linear pace line, using the real 5h and 7d meters saved from the status line. Triggers on: `PreToolUse`.
 
 ## Session Management
 
